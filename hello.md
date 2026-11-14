@@ -32,6 +32,9 @@
 - git add 文件名 "增加需要git管理的文件"
 - git add . "将目录下所有文件纳入git版本管理"
 - git commit -m "将追踪的文件放入暂存区"
+- git log --oneline "查看commit历史,前面的序列号有用处"
+- git checkout 序列号 "将文件回溯到某个commit版本"
+- git checkout main "将文件回溯到最新commit版本"
 ### 当某个文件发生更新：
 - git add 文件名
 - git commit -m "说明" 将变更的地方提交到暂存区
