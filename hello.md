@@ -73,4 +73,12 @@
 - 通过source .venv/bin/activate 进入虚拟环境。
 - pip freeze > requirements.txt 创建requirements.txt文件。
 - 对于新环境的计算机，激活venv环境后，使用pip install -r requirements.txt 就可以安装项目所需要的依赖。
+
+### Linux用户碎碎念
+- Linux用户对文件具有r(4),w(2),x(1)三种权限,分别表示读、写、可执行。
+- 对于单个文件来说，x(1)-可执行通常意味着文件可以作为程序或脚本进行运行
+- 对于文件夹来说，x(1)-可执行通常意味着可以cd进入访问该文件夹,ls查看文件的元数据,cat访问/读取/执行/修改文件夹内的文件
+touch、mkdir、rmdir创建文件、创建文件夹、删除文件夹。
+- chmod可用于添加或移除权限，数字法设置权限遵循User,Group,Others的顺序。
+- u代表User,g代表Group,o代表Others。+表示增加权限，-表示移除权限。 
 ### 我不会玩了一次就一直想着玩吧!那就挺难受的.
